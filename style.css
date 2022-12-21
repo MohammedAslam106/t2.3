@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 150px;
+    margin-top: 250px;
+    background-color: yellowgreen;
+}
+.circle{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.triangle{
+    width: 1px; 
+    height:1px; 
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+              
+    border-bottom: 50px solid green;
+    
+    
+}
+.rectangle{
+    background-color: palevioletred;
+    width: 100px;
+    height: 100px;
+    
+  
+}
+
+.shape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
